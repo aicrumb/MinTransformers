@@ -23,7 +23,7 @@ model(
     torch.randint(0,255,(4,128)),
     torch.randint(0,255,(4,1))
 ).shape
-torch.Size([4, 1, 256])
+# torch.Size([4, 1, 256])
 ```
 
 There is no tokenizer code provided so using one already built from HuggingFace is probably a good option.
