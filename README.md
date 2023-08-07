@@ -1,4 +1,4 @@
-# mintransformers
+# crumb/MinTransformers
 
 I wanted a little control so that I can focus on data filtering alone, no model differences besides size.
 
