@@ -1,6 +1,6 @@
 # aicrumb/MinTransformers
 
-I wanted a little control so that I can focus on data filtering alone, no model differences besides size. I know pytorch has a Transformer class thats encoder-decoder but I wanted a little bit of finer control (so I can swap the encoder for like an image encoder) but like not too much.
+I wanted a little control so that I can focus on data filtering alone, no model differences besides size. I know pytorch has a Transformer class thats encoder-decoder but I wanted a little bit of finer control (so I can swap the encoder for like random stuff) but like not too much.
 
 Example usage:
 ```python
