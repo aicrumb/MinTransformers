@@ -1,7 +1,5 @@
 # aicrumb/MinTransformers
 
-I wanted a little control so that I can focus on data filtering alone, no model differences besides size. I know pytorch has a Transformer class thats encoder-decoder but I wanted a little bit of finer control (so I can swap the encoder for like random stuff) but like not too much.
-
 Example usage:
 ```python
 from modeling import EncoderDecoder, Config
@@ -25,5 +23,3 @@ model(
 ).shape
 # torch.Size([4, 1, 256])
 ```
-
-There is no tokenizer code provided so using one already built from HuggingFace is probably a good option.
