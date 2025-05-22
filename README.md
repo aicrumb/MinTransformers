@@ -7,7 +7,7 @@ model = EncoderDecoder(
     Config(
         d_model = 1024,
         d_out = 256,
-        num_layers = 28, # *2
+        num_layers = 28,
         num_heads = 64,
         num_embeddings = 256,
         position_embeddings = 512,
